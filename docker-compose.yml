@@ -15,7 +15,13 @@ services:
       - api_db
 
   api_db:
-    image: mongo-latest
+    image: mongo:latest
+    volumes:
+      - mongodb_api:/data/db
+
+
+volumes:
+  mongodb_api:
 
 
       
