@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload!!!! Hello from inside
-          docker
+          docker Hi I'm development
         </p>
         <a
           className="App-link"
